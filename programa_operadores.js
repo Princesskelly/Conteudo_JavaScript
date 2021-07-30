@@ -24,10 +24,8 @@ const realizarCalculo = (num1, num2, operacao) => {
 }
 
 leitor.question('Digite o primeiro número : \n', (primeiroNumero) => {
-    console.log({primeiroNumero });
     
     leitor.question('Digite o segundo número : \n', (segundoNumero) => {
-    console.log({segundoNumero});
 
         leitor.question('Digite o operador : \n', (operacao) => {
             const resultado = realizarCalculo(primeiroNumero, segundoNumero, operacao);
